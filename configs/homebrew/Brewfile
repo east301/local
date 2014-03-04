@@ -11,57 +11,19 @@ update
 upgrade
 
 # installs homebrew packages
-install autoconf
-install automake
 install brew-cask
-install cairo
-install cloog
-install cmake
 install django-completion
 install dos2unix
-install fontconfig
-install freeimage
-install freetype
-install gd
-install gdbm
-install gettext
-install gfortran
-install giflib
 install git
 install git-flow
-install glib
-install gmp
 install hg-flow
-install isl
-install jasper
-install jpeg
-install libevent
-install libffi
-install libgdiplus
-install libgphoto2
-install libicns
-install libmpc
-install libpng
-install libtiff
-install libtool
-install libusb
-install libusb-compat
-install little-cms2
-install mpfr
 install nkf
 install node
-install openssl
-install pcre
-install pixman
-install pkg-config
 install pstree
 install pypy
 install python
 install python3
-install readline
 install rmtrash
-install sane-backends
-install sqlite
 install terminal-notifier
 install the_silver_searcher
 install tig
@@ -69,8 +31,6 @@ install tmux
 install tree
 install vagrant-completion
 install wget
-install wine
-install xz
 
 # installs homebrew-cask packages
 cask install adobe-reader
