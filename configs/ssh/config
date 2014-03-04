@@ -1,0 +1,13 @@
+Host *
+  ControlMaster auto
+  ControlPath     ~/.ssh/master-%r@%h:%p
+  ControlPersist  10
+  Compression     yes
+
+Host bitbucket.org
+  HostName        bitbucket.org
+  IdentityFile    ~/.ssh/id_rsa-vcs-east301
+
+Host github.com
+  HostName        github.com
+  IdentityFile    ~/.ssh/id_rsa-vcs-east301

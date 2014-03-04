@@ -1,0 +1,108 @@
+# taps repositories
+tap caskroom/fonts
+#tap east301/misc
+tap homebrew/completions
+tap homebrew/python
+tap homebrew/science
+tap phinze/cask
+
+# updates formulae & installed packages
+update
+upgrade
+
+# installs homebrew packages
+install autoconf
+install automake
+install brew-cask
+install cairo
+install cloog
+install cmake
+install django-completion
+install dos2unix
+install fontconfig
+install freeimage
+install freetype
+install gd
+install gdbm
+install gettext
+install gfortran
+install giflib
+install git
+install git-flow
+install glib
+install gmp
+install hg-flow
+install isl
+install jasper
+install jpeg
+install libevent
+install libffi
+install libgdiplus
+install libgphoto2
+install libicns
+install libmpc
+install libpng
+install libtiff
+install libtool
+install libusb
+install libusb-compat
+install little-cms2
+install mpfr
+install nkf
+install node
+install openssl
+install pcre
+install pixman
+install pkg-config
+install pstree
+install pypy
+install python
+install python3
+install r
+install readline
+install rmtrash
+install sane-backends
+install sqlite
+install terminal-notifier
+install the_silver_searcher
+install tig
+install tmux
+install tree
+install vagrant-completion
+install wget
+install wine
+install xz
+
+# installs homebrew-cask packages
+cask install adobe-reader
+#cask install adobe-reader-font-packs-asian
+cask install airmail
+cask install alfred
+cask install appcleaner
+cask install cyberduck
+cask install dropbox
+cask install evernote
+cask install f-lux
+cask install font-source-code-pro
+#cask install font-vl-gothic
+cask install google-chrome
+cask install intellij-idea-ce
+cask install iterm2
+cask install java
+cask install mono-mdk
+cask install mono-mre
+cask install mou
+cask install netbeans
+cask install pycharm-ce
+cask install rstudio
+cask install sourcetree
+cask install spyder
+cask install todoist
+cask install totalterminal
+cask install vagrant
+cask install virtualbox
+cask install xamarin-studio
+cask install yorufukurou
+
+# cleanup
+cleanup

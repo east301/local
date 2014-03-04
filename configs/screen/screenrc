@@ -1,0 +1,9 @@
+#
+# General settings
+#
+
+escape ^Jt
+startup_message off
+autodetach on
+markkeys h=^b:l=^f:$=^e:^d=^v:^D=^V
+hardstatus alwayslastline "%w"
