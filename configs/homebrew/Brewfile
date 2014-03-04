@@ -1,6 +1,6 @@
 # taps repositories
 tap caskroom/fonts
-#tap east301/misc
+tap east301/misc
 tap homebrew/completions
 tap homebrew/python
 tap homebrew/science
@@ -58,7 +58,6 @@ install pstree
 install pypy
 install python
 install python3
-install r
 install readline
 install rmtrash
 install sane-backends
@@ -75,7 +74,7 @@ install xz
 
 # installs homebrew-cask packages
 cask install adobe-reader
-#cask install adobe-reader-font-packs-asian
+cask install adobe-reader-font-packs-asian
 cask install airmail
 cask install alfred
 cask install appcleaner
@@ -84,7 +83,7 @@ cask install dropbox
 cask install evernote
 cask install f-lux
 cask install font-source-code-pro
-#cask install font-vl-gothic
+cask install font-vl-gothic
 cask install google-chrome
 cask install intellij-idea-ce
 cask install iterm2
@@ -94,6 +93,7 @@ cask install mono-mre
 cask install mou
 cask install netbeans
 cask install pycharm-ce
+cask install r-app
 cask install rstudio
 cask install sourcetree
 cask install spyder
