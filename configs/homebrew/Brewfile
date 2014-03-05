@@ -45,6 +45,7 @@ cask install f-lux
 cask install font-source-code-pro
 cask install font-vl-gothic
 cask install google-chrome
+cask install hyokai
 cask install intellij-idea-ce
 cask install iterm2
 cask install java
