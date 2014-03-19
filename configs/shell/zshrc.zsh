@@ -118,6 +118,9 @@ workon() { source $HOME/local/env/python/$1/bin/activate; }
 ###
 
 if [ -d "/Volumes" ]; then
+    # sets JAVA_HOME
+    export JAVA_HOME=`/usr/libexec/java_home | head -n 1`
+
     # settings for homebrew
     export HOMEBREW_PREFIX=/opt/homebrew
     add_to_path $HOMEBREW_PREFIX/bin
