@@ -123,6 +123,7 @@ if [ -d "/Volumes" ]; then
     add_to_path $HOMEBREW_PREFIX/bin
     add_to_path $HOMEBREW_PREFIX/sbin
     add_to_path $HOMEBREW_PREFIX/share/git-core/contrib/diff-highlight
+    add_to_path $HOMEBREW_PREFIX/opt/ruby/bin
 
     export HOMEBREW_CASK_OPTS=--appdir=/Applications
     export HOMEBREW_GITHUB_API_TOKEN=$(read_config homebrew-github-api-token.txt)
